@@ -70,7 +70,7 @@ let totalBonus = 0;
 
  // employee number is four characters, then they got extra percentage bonus based on their current salary 
  if(employee.employeeNumber.length === 4 && employee.annualSalary> 65000){
-  bonusPercentage = .01;
+  bonusPercentage = -.01;
 
  } else if(employee.employeeNumber.length === 4 && employee.annualSalary< 65000){
   bonusPercentage = .05
@@ -137,7 +137,7 @@ let totalBonus = 0;
 
  // employee number is four characters, then they got extra percentage bonus based on their current salary 
  if(employee.employeeNumber.length === 4 && employee.annualSalary> 65000){
-  bonusPercentage = .01;
+  bonusPercentage = -.01;
 
  } else if(employee.employeeNumber.length === 4 && employee.annualSalary< 65000){
   bonusPercentage = .05
