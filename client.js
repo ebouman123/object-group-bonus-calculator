@@ -105,7 +105,7 @@ employee.annualSalary = Number(employee.annualSalary);
     name: employee.name,
     bonusPercentage: bonusPercentage,
     totalCompensation: totalCompensation,
-    totalBonus: totalBonus
+    totalBonus: Number(totalBonus)
   }
 return bonusResults;
   // console.log(bonusResults);
@@ -172,7 +172,7 @@ employee.annualSalary = Number(employee.annualSalary);
     name: employee.name,
     bonusPercentage: bonusPercentage,
     totalCompensation: totalCompensation,
-    totalBonus: totalBonus
+    totalBonus: Number(totalBonus)
   }
 
   results.push(bonusResults);
