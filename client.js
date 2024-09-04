@@ -68,12 +68,11 @@ let totalBonus = 0;
  // testing how to get the length of string number
 //  console.log((employee.employeeNumber).length);
 
- // employee number is four characters, then they got extra percentage bonus based on their current salary 
- if(employee.employeeNumber.length === 4 && employee.annualSalary> 65000){
+ if(employee.annualSalary> 65000){
   bonusPercentage = -.01;
-
- } else if(employee.employeeNumber.length === 4 && employee.annualSalary< 65000){
-  bonusPercentage = .05
+ } 
+ if(employee.employeeNumber.length === 4){
+  bonusPercentage += .05
  }
 // Need to change strings to numbers
 employee.annualSalary = Number(employee.annualSalary);
@@ -135,12 +134,11 @@ let totalBonus = 0;
  // testing how to get the length of string number
 //  console.log((employee.employeeNumber).length);
 
- // employee number is four characters, then they got extra percentage bonus based on their current salary 
- if(employee.employeeNumber.length === 4 && employee.annualSalary> 65000){
+ if(employee.annualSalary> 65000){
   bonusPercentage = -.01;
-
- } else if(employee.employeeNumber.length === 4 && employee.annualSalary< 65000){
-  bonusPercentage = .05
+ } 
+ if(employee.employeeNumber.length === 4){
+  bonusPercentage += .05
  }
 // Need to change strings to numbers
 employee.annualSalary = Number(employee.annualSalary);
